@@ -1,0 +1,100 @@
+
+%定義
+
+\documentclass[10pt]{jarticle} 
+%\usepackage{graphicx}
+%\usepackage{fancybox}
+%\usepackage{comment}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage[commentsnumbered,longend,linesnumbered]{algorithm2e}
+\newcommand{\forcond}{$i=0$ \KwTo $n$}
+\SetKwFunction{FRecurs}{FnRecursive}%
+\SetKwProg{Fn}{Function}{}{end}\SetKwFunction{FRecurs}{makeHicuts}
+
+
+
+\pagestyle{empty}
+
+%余白とか
+
+\setlength{\topmargin}{-3.0cm} 
+\setlength{\textheight}{28.0cm} 
+\setlength{\textwidth}{18.5cm}
+\setlength{\oddsidemargin}{-1.3cm} 
+\setlength{\columnsep}{.5cm}
+\newcommand{\noin}{\noindent}
+\catcode`@=\active \def@{\hspace{0.9bp}-\hspace{0.9bp}}
+\newtheorem{dfn}{定義}[section]
+
+
+%タイトル
+
+\title{HiCuts決定木構成の擬似コード}
+\setcounter{footnote}{1}
+\author{小山　卓\if0\thanks{神奈川大学理学部情報科学科 田中研究室}\fi}
+\date{\today}
+\西暦
+
+%タイトル作成
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+\begin{algorithm}
+\Fn(\tcc*[h]{HiCutsを作るプログラム}){\FRecurs{rulelist，spfac，binth，range}}{
+\KwData{ルールリスト，メモリ要件を調節する値，葉ノードの含むルールの上限数，フィールドの範囲}
+\KwResult{構成した決定木}
+\tcc{this is a comment to tell you that we will now really start code}
+ルートノードを作る\;
+\If(\tcc*[h]{a simple if but with a comment on the same line}){this is true}{
+we do that, else nothing\;
+\tcc{we will include other if so you can see this is possible}
+\eIf{we agree that}{
+we do that\;
+}{
+else we will do a more complicated if using else if\;
+\uIf{this first condition is true}{
+we do that\;
+}
+\uElseIf{this other condition is true}{
+this is done\tcc*[r]{else if}
+}
+\Else{
+in other case, we do this\tcc*[r]{else}
+}
+}
+}
+\tcc{now loops}
+\For{\forcond}{
+a for loop\;
+}
+\While{$i<n$}{
+a while loop including a repeat--until loop\;
+\Repeat{this end condition}{
+do this things\;
+}
+}
+They are many other possibilities and customization possible that you have to
+discover by reading the documentation.
+}
+\end{algorithm}
+
+
+\SetKwFunction{cut}{cut}%
+\SetKwProg{CUT}{Function}{}{end}\SetKwFunction{FRecurs}{makeHicuts}
+\begin{algorithm}
+\CUT(\tcc*[h]{カットするプログラム}){\cut{rulelist，spfac，binth，range}}{
+\KwData{ルールリスト，メモリ要件を調節する値，葉ノードの含むルールの上限数，フィールドの範囲}
+\KwResult{カットしたルール}
+\tcc{this is a comment to tell you that we will now really start code}
+ルートノードを作る\;
+\If(\tcc*[h]{a simple if but with a comment on the same line}){this is true}
+
+}
+\end{algorithm}
+
+\end{document}
