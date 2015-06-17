@@ -1,25 +1,15 @@
-This is e-pTeX, Version 3.1415926-p3.3-110825-2.4 (utf8.euc) (TeX Live 2012) (format=platex 2013.3.16)  10 JUN 2015 16:28
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2015.6.10)  17 JUN 2015 16:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **makeHicuts.tex
 (./makeHicuts.tex
-pLaTeX2e <2006/11/10> (based on LaTeX2e <2011/06/27> patch level 0)
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
-rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
-c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
-h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
-h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
-ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
-rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
-kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
- piedmontese, polish, portuguese, romanian, romansh, russian, sanskrit, serbian
-, serbianc, slovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, u
-ppersorbian, welsh, loaded.
-(/usr/local/texlive/2012/texmf-dist/tex/platex/base/jarticle.cls
+pLaTeX2e <2006/11/10> (based on LaTeX2e <2014/05/01> patch level 0)
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2014/texmf-dist/tex/platex/base/jarticle.cls
 Document Class: jarticle 2006/06/27 v1.6 Standard pLaTeX class
 \c@@paper=\count81
-(/usr/local/texlive/2012/texmf-dist/tex/platex/base/jsize10.clo
+(/usr/local/texlive/2014/texmf-dist/tex/platex/base/jsize10.clo
 File: jsize10.clo 2006/06/27 v1.6 Standard pLaTeX file (size option)
 )
 \c@part=\count82
@@ -40,24 +30,24 @@ LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
 \bibindent=\dimen120
 \heisei=\count90
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks15
 \ex@=\dimen121
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen122
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count91
@@ -98,39 +88,29 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup5
 \symAMSb=\mathgroup6
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 Package: algorithm2e 2013/01/06 v5.00 algorithms environments
 \c@AlgoLine=\count103
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/xspace.sty
-Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/relsize/relsize.sty
-Package: relsize 2011/09/21 ver 4.0
-
-Examine \normalsize starts \@setfontsize size may be \@xpt. 
-Examine \small starts \@setfontsize size may be \@ixpt. 
-Examine \footnotesize starts \@setfontsize size may be \@viiipt. 
-Examine \large starts \@setfontsize size may be \@xiipt. 
-Examine \Large starts \@setfontsize size may be \@xivpt. 
-Examine \LARGE starts \@setfontsize size may be \@xviipt. 
-Examine \scriptsize starts \@setfontsize size may be \@viipt. 
-Examine \tiny starts \@setfontsize size may be \@vpt. 
-Examine \huge starts \@setfontsize size may be \@xxpt. 
-Examine \Huge starts \@setfontsize size may be \@xxvpt. )
+(/usr/local/texlive/2014/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
 ********************************************************
 Package `algorithm2e' Release 5.0 -- january 06 2013 --
 - algorithm2e-announce@lirmm.fr mailing list for announcement about releases
@@ -176,48 +156,48 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
  (./makeHicuts.aux)
 \openout1 = `makeHicuts.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Try loading font information for U+msa on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Try loading font information for U+msa on input line 45.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 44.
+LaTeX Font Info:    Try loading font information for U+msb on input line 45.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 83.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 58.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 83.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 58.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <7> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 83.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 58.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <7> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 83.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 58.
 
 
 LaTeX Font Warning: Font shape `JT1/gt/m/it' undefined
-(Font)              using `JT1/gt/m/n' instead on input line 83.
+(Font)              using `JT1/gt/m/n' instead on input line 58.
 
 
 LaTeX Font Warning: Font shape `JY1/gt/m/it' undefined
-(Font)              using `JY1/gt/m/n' instead on input line 83.
+(Font)              using `JY1/gt/m/n' instead on input line 58.
 
 [1
 
@@ -227,12 +207,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 2612 strings out of 494052
- 33098 string characters out of 3155844
- 114896 words of memory out of 3000000
- 6060 multiletter control sequences out of 15000+200000
- 16308 words of font info for 66 fonts, out of 3000000 for 9000
- 745 hyphenation exceptions out of 8191
- 33i,20n,34p,240b,613s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 2627 strings out of 493799
+ 33242 string characters out of 6151522
+ 120602 words of memory out of 5000000
+ 6114 multiletter control sequences out of 15000+600000
+ 16308 words of font info for 66 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 33i,20n,34p,226b,613s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on makeHicuts.dvi (2 pages, 3988 bytes).
+Output written on makeHicuts.dvi (2 pages, 4876 bytes).
